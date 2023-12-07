@@ -1,0 +1,11 @@
+# Directories
+.vs/
+bin/
+CMakeFiles/
+
+# Files
+*.user
+*.url
+*.sln
+*.vcxproj
+*.vcxproj.filters

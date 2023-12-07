@@ -1,0 +1,6 @@
+﻿  Assembling asm\CodeCaves.asm...
+asm\CodeCaves.asm(1): error A2013: .MODEL must precede this directive
+asm\CodeCaves.asm(2): error A2034: must be in segment block : CodeCave_GodMode
+asm\CodeCaves.asm(3): error A2034: must be in segment block
+asm\CodeCaves.asm(4): fatal error A1010: unmatched block nesting : CodeCave_GodMode
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\CodeCaves.obj" /W3 /errorReport:prompt  /Taasm\CodeCaves.asm" exited with code 1.
