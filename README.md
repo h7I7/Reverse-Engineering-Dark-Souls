@@ -16,6 +16,3 @@
 * CMake
 
 Modify 'Generate_VS20XX_Project.bat' to get this to build on other platforms
-
-## Contact
-Lily Raeburn - https://www.linkedin.com/in/lilyraeburn/ - LilyRaeburn@outlook.com
