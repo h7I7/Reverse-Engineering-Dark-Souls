@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.2)
+set(CMAKE_SUPPRESS_REGENERATION true)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT DarkSoulsTrainer)
+
+project(ReverseEngineeringDarkSouls)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "" FORCE)
+
+add_definitions(-DUNICODE -D_UNICODE)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+
+add_subdirectory(vendor)
+add_subdirectory(DarkSoulsTrainer)
