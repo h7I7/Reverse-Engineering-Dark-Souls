@@ -2,6 +2,7 @@
 .vs/
 bin/
 CMakeFiles/
+vendor/
 
 # Files
 *.user

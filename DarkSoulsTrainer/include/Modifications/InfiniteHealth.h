@@ -20,6 +20,7 @@ protected:
 	virtual void Toggle() override;
 
 private:
+	size_t ModuleBaseAddress;
 	size_t JumpBaseAddress;
 	size_t CaveBaseAddress;
 
